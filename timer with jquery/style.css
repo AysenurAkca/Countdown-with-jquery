@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 70%;
+    height: auto;
+    margin: 50px auto;
+    
+}
+.time-stuff{
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    
+}
+
+
+#timer{
+    height: 200px;
+    font-size: 200px;
+}
+
+#start:hover, #edit:hover, #reset:hover{
+    cursor: pointer;
+}
+
+#start{
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset{
+    height: 150px;
+    width: 150px;
+    font-size: 30px;
+    color: #3f3c3c;
+    background-color: rgb(77, 77, 163);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#edit{
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(77, 77, 163);
+}
+
+#edit-text{
+    padding: 5px;
+    display: none;
+}
+
+#edit-btn{
+    padding: 5px;
+    display: none;
+}
